@@ -1,1 +1,3 @@
-AddHandler application/x-httpd-php .skk
+AddType text/html .php
+AddOutputFilter INCLUDES .php
+Options +Includes
